@@ -1,0 +1,1 @@
+Speedy Saucer is a 2D videogame developed in Godot engine where the players controls a spaceship and must reach the end of the level without colliding with obstacles.
