@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="Godot2D-SpeedySaucer"
-run/main_scene="res://level_0.tscn"
+run/main_scene="res://Scenes/level_0.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"

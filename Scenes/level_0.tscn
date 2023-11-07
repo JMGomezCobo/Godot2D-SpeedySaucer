@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0tcu6jjlc6ct"]
+
+[ext_resource type="Texture2D" uid="uid://dn72t66tx6d53" path="res://Sprites/Backgrounds/black.png" id="1_dnfjv"]
+
+[node name="Level_0" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 978.0
+offset_bottom = 551.0
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("1_dnfjv")
+stretch_mode = 1

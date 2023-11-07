@@ -1,5 +1,14 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697646825
+::res://::1699372545
 icon.svg::CompressedTexture2D::1488483318309757969::1697646799::1697646825::1::::<><>::
-level_0.tscn::PackedScene::4180523744385504499::1697647839::0::1::::<><>::uid://vhbdq204fsdl::::res://icon.svg
-level_1.tscn::PackedScene::7044173245369581409::1697647850::0::1::::<><>::uid://vhbdq204fsdl::::res://icon.svg
+README.txt::TextFile::-1::1699372004::0::1::::<><>::
+::res://Audio/::1699372518
+::res://Scenes/::1699372545
+level_0.tscn::PackedScene::4180523744385504499::1697649638::0::1::::<><>::uid://vhbdq204fsdl::::res://icon.svg
+::res://Scripts/::1699372535
+::res://Sprites/::1699372728
+::res://Sprites/Backgrounds/::1699372728
+black.png::CompressedTexture2D::8139452072400547628::1699372728::1699372728::1::::<><>::
+blue.png::CompressedTexture2D::1722386094785131686::1699372728::1699372728::1::::<><>::
+darkPurple.png::CompressedTexture2D::5338899891119853574::1699372728::1699372728::1::::<><>::
+purple.png::CompressedTexture2D::1115286380275833724::1699372728::1699372728::1::::<><>::
