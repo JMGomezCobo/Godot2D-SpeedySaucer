@@ -1,11 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699372545
+::res://::1699445446
 icon.svg::CompressedTexture2D::1488483318309757969::1697646799::1697646825::1::::<><>::
 README.txt::TextFile::-1::1699372004::0::1::::<><>::
 ::res://Audio/::1699372518
-::res://Scenes/::1699373261
-level_0.tscn::PackedScene::4180523744385504499::1699373261::0::1::::<><>::uid://dn72t66tx6d53::::res://Sprites/Backgrounds/black.png
-::res://Scripts/::1699372535
+::res://Scenes/::1699445446
+level_0.tscn::PackedScene::4180523744385504499::1699445434::0::1::::<><>::uid://dn72t66tx6d53::::res://Sprites/Backgrounds/black.png<>uid://b873ugu6j6cqh::::res://Scenes/player.tscn
+player.gd::GDScript::-1::1699445420::0::1::::<>RigidBody2D<>::
+player.tscn::PackedScene::4770448751011577111::1699445481::0::1::::<><>::res://Scenes/player.gd<>uid://bej242j2tdvwl::::res://Sprites/Player/ufoBlue.png
+::res://Scripts/::1699445446
 ::res://Sprites/::1699373499
 ::res://Sprites/Backgrounds/::1699372728
 black.png::CompressedTexture2D::8139452072400547628::1699372728::1699372728::1::::<><>::

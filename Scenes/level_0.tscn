@@ -1,12 +1,15 @@
-[gd_scene load_steps=2 format=3 uid="uid://b0tcu6jjlc6ct"]
+[gd_scene load_steps=3 format=3 uid="uid://b0tcu6jjlc6ct"]
 
 [ext_resource type="Texture2D" uid="uid://dn72t66tx6d53" path="res://Sprites/Backgrounds/black.png" id="1_dnfjv"]
+[ext_resource type="PackedScene" uid="uid://b873ugu6j6cqh" path="res://Scenes/player.tscn" id="2_j7tt6"]
 
 [node name="Level_0" type="Node2D"]
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="Background" type="TextureRect" parent="."]
 offset_right = 978.0
 offset_bottom = 551.0
 scale = Vector2(1.2, 1.2)
 texture = ExtResource("1_dnfjv")
 stretch_mode = 1
+
+[node name="Player" parent="." instance=ExtResource("2_j7tt6")]
