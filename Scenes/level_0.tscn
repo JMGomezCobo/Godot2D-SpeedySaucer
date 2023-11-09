@@ -1,15 +1,67 @@
-[gd_scene load_steps=3 format=3 uid="uid://b0tcu6jjlc6ct"]
+[gd_scene load_steps=5 format=3 uid="uid://b0tcu6jjlc6ct"]
 
-[ext_resource type="Texture2D" uid="uid://dn72t66tx6d53" path="res://Sprites/Backgrounds/black.png" id="1_dnfjv"]
+[ext_resource type="Script" path="res://Scripts/level_0.gd" id="1_vdswg"]
 [ext_resource type="PackedScene" uid="uid://b873ugu6j6cqh" path="res://Scenes/player.tscn" id="2_j7tt6"]
+[ext_resource type="PackedScene" uid="uid://grm3bscn0ur" path="res://Scenes/maze.tscn" id="2_l4wlx"]
+[ext_resource type="Texture2D" uid="uid://cicg5v1eh4ukk" path="res://Sprites/Backgrounds/darkPurple.png" id="4_uf24c"]
 
 [node name="Level_0" type="Node2D"]
+script = ExtResource("1_vdswg")
 
-[node name="Background" type="TextureRect" parent="."]
-offset_right = 978.0
-offset_bottom = 551.0
-scale = Vector2(1.2, 1.2)
-texture = ExtResource("1_dnfjv")
-stretch_mode = 1
+[node name="Area2D" parent="." instance=ExtResource("2_l4wlx")]
 
 [node name="Player" parent="." instance=ExtResource("2_j7tt6")]
+position = Vector2(171, 85)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -10
+
+[node name="Background" type="TextureRect" parent="CanvasLayer"]
+z_index = -100
+offset_left = -758.0
+offset_top = -427.0
+offset_right = 1483.0
+offset_bottom = 835.0
+scale = Vector2(1.2, 1.2)
+texture = ExtResource("4_uf24c")
+stretch_mode = 1
+
+[node name="Labels" type="Node" parent="."]
+
+[node name="Label_Start" type="Label" parent="Labels"]
+offset_left = 146.0
+offset_top = 14.0
+offset_right = 186.0
+offset_bottom = 40.0
+text = "Start"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label_Finish" type="Label" parent="Labels"]
+offset_left = 878.0
+offset_top = -123.0
+offset_right = 918.0
+offset_bottom = -97.0
+text = "Finish"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label_Keys" type="Label" parent="Labels"]
+offset_left = 332.0
+offset_top = 46.0
+offset_right = 593.0
+offset_bottom = 137.0
+text = "Use WASD or arrow keys to move!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label_Welcome" type="Label" parent="Labels"]
+offset_left = 44.0
+offset_top = -127.0
+offset_right = 305.0
+offset_bottom = -36.0
+text = "Welcome to Speedy Saucer!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_exited" from="Area2D" to="." method="_on_area_2d_body_exited"]

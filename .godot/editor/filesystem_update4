@@ -1,5 +1,5 @@
-res://player.tscn
-res://Scenes/level_0.tscn
+res://area_2d.tscn
 res://Scenes/player.tscn
-res://Scripts/player.gd
-res://Scenes/player.gd
+res://Scenes/maze.tscn
+res://Scenes/level_0.tscn
+res://Scripts/level_0.gd

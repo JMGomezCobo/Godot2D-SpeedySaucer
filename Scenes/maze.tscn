@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://grm3bscn0ur"]
+
+[ext_resource type="Texture2D" uid="uid://p5iur6krjiwy" path="res://Sprites/Backgrounds/purple.png" id="1_wdoij"]
+
+[node name="Area2D" type="Area2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(67, 105, 74, 238, 175, 356, 348, 363, 354, 471, 196, 580, 201, 762, 393, 854, 635, 852, 919, 856, 1085, 695, 1075, 407, 931, 283, 1065, 153, 1055, -40, 914, -189, 794, -86, 892, 14, 644, 272, 879, 473, 887, 641, 721, 645, 413, 635, 552, 521, 540, 176, 276, 178, 273, 5, 61, 9.00012)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+texture_repeat = 2
+texture = ExtResource("1_wdoij")
+polygon = PackedVector2Array(67, 105, 74, 238, 175, 356, 348, 363, 354, 471, 196, 580, 201, 762, 393, 854, 635, 852, 919, 856, 1085, 695, 1075, 407, 931, 283, 1065, 153, 1055, -40, 914, -189, 794, -86, 892, 14, 644, 272, 879, 473, 887, 641, 721, 645, 413, 635, 552, 521, 540, 176, 276, 178, 273, 5, 61, 9.00012)

@@ -1,5 +1,12 @@
-WorldEnvironment
+Node
+Label
+CanvasLayer
+Polygon2D
+CollisionPolygon2D
 CollisionShape2D
+Area2D
+Camera2D
+WorldEnvironment
 Sprite2D
 RigidBody2D
 TextureRect
